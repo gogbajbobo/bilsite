@@ -78,3 +78,22 @@ img.about-img {
     background-color: #fff;
     color: #000;
 }
+
+footer {
+    background-color: #2d2d30;
+    color: #f5f5f5;
+    padding: 32px;
+}
+
+footer a {
+    color: #f5f5f5;
+}
+
+footer a:hover {
+    color: #777;
+    text-decoration: none;
+}
+
+footer #gogbajbobo {
+    color: #a6deff;
+}
