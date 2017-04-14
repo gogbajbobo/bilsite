@@ -72,7 +72,7 @@ body {
 }
 
 .navbar li a, .navbar .navbar-brand {
-    color: #d5d5d5 !important;
+    color: gray !important;
 }
 
 .navbar-nav li a:hover {
