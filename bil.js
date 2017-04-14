@@ -25,4 +25,12 @@ $(document).ready(function() {
     });
 
 });
+function closeNavbarOnClick() {
+
+    $('.nav a').on('click', function() {
+        $('.navbar-collapse').collapse('hide');
+    });
+
+}
+
 
