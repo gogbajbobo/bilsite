@@ -4,6 +4,14 @@
 
 $(document).ready(function() {
 
+    scrollToSection();
+    closeNavbarOnClick();
+    spyForScrollSpy();
+
+});
+
+function scrollToSection() {
+
     $('[data-toggle="tooltip"]').tooltip();
 
     $(".navbar a, footer a[href='#bil-page']").on('click', function(event) {
@@ -12,7 +20,7 @@ $(document).ready(function() {
 
             event.preventDefault();
 
-            var hash = this.hash;
+            let hash = this.hash;
 
             $('html, body').animate({
                 scrollTop: $(hash).offset().top
@@ -24,7 +32,8 @@ $(document).ready(function() {
 
     });
 
-});
+}
+
 function closeNavbarOnClick() {
 
     $('.nav a').on('click', function() {
