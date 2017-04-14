@@ -50,6 +50,7 @@ body {
 
 .navbar-nav li a:hover {
     color: #fff !important;
+    background-color: #222 !important;
 }
 
 .navbar-nav li.active a {
