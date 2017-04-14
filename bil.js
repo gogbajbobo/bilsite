@@ -33,4 +33,15 @@ function closeNavbarOnClick() {
 
 }
 
+function spyForScrollSpy() {
 
+    $('body').on('activate.bs.scrollspy', function () {
+
+        let navbarMenu = $('#bil-menu');
+        let activeMenuItem = navbarMenu.find('li.active');
+        let activeMenuText = activeMenuItem.children('a').text();
+        $('#infotext-navbar').text(activeMenuText);
+
+    });
+
+}
