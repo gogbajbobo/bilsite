@@ -1,3 +1,10 @@
+
+:root {
+    --max-width: 1024px;
+    --img-filter: grayscale(70%) sepia(30%);
+    --main-color: #2d2d30;
+}
+
 body {
     background-color: #EEEEEE;
     font: 400 16px/1.8 Play, sans-serif;
