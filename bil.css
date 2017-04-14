@@ -97,6 +97,12 @@ p.content-header {
     color: white !important;
 }
 
+#infotext-navbar {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+}
+
 .carousel-inner img {
     -webkit-filter: var(--img-filter);
     filter: var(--img-filter);
