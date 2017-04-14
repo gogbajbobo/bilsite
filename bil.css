@@ -32,6 +32,10 @@ body {
     padding-bottom: 10px;
 }
 
+p.content-header {
+    font-size: 36px;
+}
+
 .content-about .row {
     padding-left: 50px;
 }
