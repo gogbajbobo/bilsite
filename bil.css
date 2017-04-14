@@ -107,6 +107,10 @@ img.about-img {
     opacity: var(--img-opacity);
 }
 
+#bil-portfolio {
+    color: white;
+}
+
 .thumbnail {
     padding: 0 0 15px 0;
     border: none;
