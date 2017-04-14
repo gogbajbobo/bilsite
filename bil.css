@@ -75,7 +75,7 @@ p.content-header {
     max-width: var(--max-width);
 }
 
-.navbar li a, .navbar .navbar-brand {
+.navbar li a, .navbar {
     color: gray !important;
 }
 
@@ -91,6 +91,10 @@ p.content-header {
 
 .navbar-default .navbar-toggle {
     border-color: transparent;
+}
+
+.navbar-brand {
+    color: white !important;
 }
 
 .carousel-inner img {
