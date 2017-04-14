@@ -58,8 +58,14 @@ body {
 }
 
 @media (max-width: 768px) {
+    .content-container {
+        padding-top: 40px;
+    }
     .content-about {
         background-image: url("img/about_background_xs.jpg");
+    }
+    .content-about .row {
+        padding-left: 25px;
     }
     .stretchy-wrapper {
         padding-bottom: 150%;
