@@ -15,10 +15,6 @@ body {
     max-width: var(--max-width);
 }
 
-.content-container {
-    padding-top: 65px;
-}
-
 .container-fluid {
     margin-right: auto;
     margin-left: auto;
@@ -29,6 +25,36 @@ body {
     margin-right: auto;
     margin-left: auto;
     max-width: var(--max-width);
+}
+
+.content-container {
+    padding-top: 60px;
+    padding-bottom: 10px;
+}
+
+.content-about .row {
+    padding-left: 50px;
+}
+
+.content-about {
+    background-image: url("img/about_background.jpg");
+    -webkit-filter: var(--img-filter);
+    filter: var(--img-filter);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 100% auto;
+    color: var(--main-color);
+}
+
+.stretchy-wrapper {
+    position: relative;
+    width: 100%;
+    padding-bottom: 50%;
+}
+
+.stretchy-wrapper > div {
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
 }
 
 .navbar {
@@ -79,10 +105,6 @@ body {
     .carousel-caption {
         display: none;
     }
-}
-
-#bil-about {
-    background: #EEEEEE;
 }
 
 img.about-img {
