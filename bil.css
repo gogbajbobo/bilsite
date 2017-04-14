@@ -74,7 +74,7 @@ body {
     background-color: var(--main-color);
     border: 0;
     letter-spacing: 4px;
-    opacity:0.9;
+    opacity: 1.0;
     margin-right: auto;
     margin-left: auto;
     max-width: var(--max-width);
