@@ -57,21 +57,6 @@ body {
     top: 0; bottom: 0; left: 0; right: 0;
 }
 
-@media (max-width: 768px) {
-    .content-container {
-        padding-top: 40px;
-    }
-    .content-about {
-        background-image: url("img/about_background_xs.jpg");
-    }
-    .content-about .row {
-        padding-left: 25px;
-    }
-    .stretchy-wrapper {
-        padding-bottom: 150%;
-    }
-}
-
 .navbar {
     font-family: Play, sans-serif;
     font-size: 14px !important;
@@ -114,12 +99,6 @@ body {
 
 .carousel-caption h3 {
     color: white !important;
-}
-
-@media (max-width: 600px) {
-    .carousel-caption {
-        display: none;
-    }
 }
 
 img.about-img {
@@ -170,4 +149,32 @@ footer a:hover {
 
 footer #gogbajbobo {
     color: #a6deff;
+}
+
+
+@media (max-width: 350px) {
+    body {
+        font-size: 14px !important;
+    }
+}
+
+@media (max-width: 560px) {
+    .carousel-caption {
+        display: none;
+    }
+    .content-about {
+        background-image: url("img/about_background_xs.jpg");
+    }
+    .stretchy-wrapper {
+        padding-bottom: 150%;
+    }
+}
+
+@media (max-width: 768px) {
+    .content-container {
+        padding-top: 40px;
+    }
+    .content-about .row {
+        padding-left: 25px;
+    }
 }
