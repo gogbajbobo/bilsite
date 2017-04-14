@@ -175,8 +175,11 @@ img.about-img {
 }
 
 #bil-contacts {
-    background-color: white;
+    background-color: #FFFFF9;
     padding: 20px;
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
 }
 
 footer {
