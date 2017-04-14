@@ -124,7 +124,15 @@ img.about-img {
 
 .thumbnail p {
     margin-top: 15px;
-    color: #555;
+    color: #aaaaaa;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.thumbnail p strong {
+    color: white;
+}
+
 }
 
 .btn {
