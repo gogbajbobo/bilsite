@@ -7,6 +7,7 @@ $(document).ready(function() {
     scrollToSection();
     closeNavbarOnClick();
     spyForScrollSpy();
+    getContacts();
 
 });
 
@@ -50,6 +51,19 @@ function spyForScrollSpy() {
         let activeMenuItem = navbarMenu.find('li.active');
         let activeMenuText = activeMenuItem.children('a').text();
         $('#infotext-navbar').text(activeMenuText);
+
+    });
+
+}
+
+function getContacts() {
+
+    let path = 'contacts.html';
+
+    $.get(path, function(data) {
+
+        let contacts = $(data).filter('#bil-contacts');
+        $('#bil-contacts').replaceWith(contacts);
 
     });
 
