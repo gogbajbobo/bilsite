@@ -6,6 +6,7 @@
     --img-opacity: 0.5;
     --img-opacity-2: 1.0;
     --main-color: #2d2d30;
+    --ligth-color: #FFFFF9;
 }
 
 body {
@@ -105,6 +106,10 @@ p.content-header {
     transform: translatex(-50%);
 }
 
+#bil-start {
+    background-color: var(--ligth-color);
+}
+
 .carousel-inner img {
     -webkit-filter: var(--img-filter-2);
     filter: var(--img-filter-2);
@@ -121,6 +126,10 @@ img.about-img {
     -webkit-filter: var(--img-filter);
     filter: var(--img-filter);
     opacity: var(--img-opacity);
+}
+
+#bil-about {
+    background-color: var(--ligth-color);
 }
 
 #bil-portfolio {
@@ -189,7 +198,7 @@ img.about-img {
 }
 
 #bil-contacts {
-    background-color: #FFFFF9;
+    background-color: var(--ligth-color);
     padding: 20px;
     -webkit-border-radius: 0 0 10px 10px;
     -moz-border-radius: 0 0 10px 10px;
