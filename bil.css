@@ -1,8 +1,10 @@
 
 :root {
     --max-width: 1024px;
-    --img-filter: grayscale(70%) sepia(30%);
+    --img-filter: grayscale(70%) sepia(30%) saturate(100%) brightness(100%) contrast(100%);
+    --img-filter-2: grayscale(30%) sepia(30%) saturate(100%) brightness(100%) contrast(100%);
     --img-opacity: 0.5;
+    --img-opacity-2: 1.0;
     --main-color: #2d2d30;
 }
 
@@ -104,9 +106,9 @@ p.content-header {
 }
 
 .carousel-inner img {
-    -webkit-filter: var(--img-filter);
-    filter: var(--img-filter);
-    opacity: var(--img-opacity);
+    -webkit-filter: var(--img-filter-2);
+    filter: var(--img-filter-2);
+    opacity: var(--img-opacity-2);
     width: 100%;
     margin: auto;
 }
