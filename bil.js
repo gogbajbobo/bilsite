@@ -4,10 +4,12 @@
 
 $(document).ready(function() {
 
+    getContacts();
+    getFooter();
+
     scrollToSection();
     closeNavbarOnClick();
     spyForScrollSpy();
-    getContacts();
 
 });
 
@@ -66,6 +68,21 @@ function getContacts() {
 
         let contacts = $(data).filter('#bil-contacts');
         $('#bil-contacts').replaceWith(contacts);
+
+    });
+
+}
+
+function getFooter() {
+
+    let portfolioFolder = window.location.pathname.split('/').indexOf('portfolio') !== -1;
+
+    let path = portfolioFolder ? '../footer.html' : 'footer.html';
+
+    $.get(path, function(data) {
+
+        let footer = $(data).filter('#bil-footer');
+        $('#bil-footer').replaceWith(footer);
 
     });
 
