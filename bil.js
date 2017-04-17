@@ -69,6 +69,8 @@ function getContacts() {
         let contacts = $(data).filter('#bil-contacts');
         $('#bil-contacts').replaceWith(contacts);
 
+        $('[data-toggle="tooltip"]').tooltip();
+
     });
 
 }
@@ -83,6 +85,8 @@ function getFooter() {
 
         let footer = $(data).filter('#bil-footer');
         $('#bil-footer').replaceWith(footer);
+
+        $('[data-toggle="tooltip"]').tooltip();
 
     });
 
