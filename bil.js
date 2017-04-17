@@ -58,7 +58,9 @@ function spyForScrollSpy() {
 
 function getContacts() {
 
-    let path = 'contacts.html';
+    let portfolioFolder = window.location.pathname.split('/').indexOf('portfolio') !== -1;
+
+    let path = portfolioFolder ? '../contacts.html' : 'contacts.html';
 
     $.get(path, function(data) {
 
