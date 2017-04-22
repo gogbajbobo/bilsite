@@ -6,11 +6,11 @@
     --img-opacity: 0.5;
     --img-opacity-2: 1.0;
     --main-color: #2d2d30;
-    --ligth-color: #FFFFF9;
+    --light-color: #FFFFF9;
 }
 
 body {
-    background-color: var(--ligth-color);
+    background-color: var(--light-color);
     font: 400 16px/1.8 Play, sans-serif;
     color: #777;
     margin-right: auto;
@@ -107,7 +107,7 @@ p.content-header {
 }
 
 #bil-start {
-    background-color: var(--ligth-color);
+    background-color: var(--light-color);
 }
 
 .carousel-inner p {
@@ -133,7 +133,7 @@ img.about-img {
 }
 
 #bil-about {
-    background-color: var(--ligth-color);
+    background-color: var(--light-color);
 }
 
 #bil-portfolio {
@@ -203,7 +203,7 @@ img.about-img {
 }
 
 #bil-contacts {
-    background-color: var(--ligth-color);
+    background-color: var(--light-color);
     padding: 20px;
     -webkit-border-radius: 0 0 10px 10px;
     -moz-border-radius: 0 0 10px 10px;
