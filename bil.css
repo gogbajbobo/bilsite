@@ -10,7 +10,7 @@
 }
 
 body {
-    background-color: var(--main-color);
+    background-color: var(--ligth-color);
     font: 400 16px/1.8 Play, sans-serif;
     color: #777;
     margin-right: auto;
@@ -138,6 +138,7 @@ img.about-img {
 
 #bil-portfolio {
     color: white;
+    background-color: var(--main-color);
 }
 
 .thumbnail {
