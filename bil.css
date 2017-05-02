@@ -1,8 +1,8 @@
 
 :root {
     --max-width: 1024px;
-    --img-filter: grayscale(70%) sepia(30%) saturate(100%) brightness(100%) contrast(100%);
-    --img-filter-2: grayscale(30%) sepia(30%) saturate(100%) brightness(100%) contrast(100%);
+    --img-filter: grayscale(0%) sepia(0%) saturate(100%) brightness(100%) contrast(100%);
+    --img-filter-2: grayscale(0%) sepia(0%) saturate(100%) brightness(100%) contrast(100%);
     --img-opacity: 0.5;
     --img-opacity-2: 1.0;
     --main-color: #2d2d30;
