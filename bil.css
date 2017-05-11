@@ -249,9 +249,9 @@ footer #gogbajbobo {
 }
 
 @media (max-width: 768px) {
-    .content-container {
-        padding-top: 40px;
-    }
+    /*.content-container {*/
+        /*padding-top: 40px;*/
+    /*}*/
     .content-about .row {
         padding-left: 25px;
     }
