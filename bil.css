@@ -32,7 +32,7 @@ body {
 
 .content-container {
     padding-top: 60px;
-    padding-bottom: 0px;
+    padding-bottom: 0;
 }
 
 p.content-header {
@@ -237,7 +237,7 @@ footer #gogbajbobo {
 }
 
 @media (max-width: 560px) {
-    .carousel-caption {
+    .carousel-caption .content-description {
         display: none;
     }
     .content-about {
