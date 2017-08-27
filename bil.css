@@ -231,9 +231,15 @@ footer #gogbajbobo {
 
 
 @media (max-width: 350px) {
+
     body {
         font-size: 14px !important;
     }
+    .carousel-caption {
+        right: 5%;
+        left: 5%;
+    }
+
 }
 
 @media (max-width: 560px) {
