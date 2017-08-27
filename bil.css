@@ -237,6 +237,10 @@ footer #gogbajbobo {
 }
 
 @media (max-width: 560px) {
+
+    .carousel-caption .content-header {
+        font-size: 24px;
+    }
     .carousel-caption .content-description {
         display: none;
     }
@@ -246,6 +250,7 @@ footer #gogbajbobo {
     .stretchy-wrapper {
         padding-bottom: 150%;
     }
+
 }
 
 @media (max-width: 768px) {
