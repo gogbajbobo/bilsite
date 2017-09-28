@@ -23,3 +23,9 @@ body {
 .contacts-info a:focus {
     color: #23527c !important;
 }
+
+@media (max-width: 512px) {
+    .hidden-on-phones {
+        display: none;
+    }
+}
