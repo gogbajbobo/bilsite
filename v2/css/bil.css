@@ -13,3 +13,13 @@ body {
 #main-page-content .content-part {
     padding-top: 16px;
 }
+
+.contacts-info a {
+    padding: 10px;
+    color: #337ab7 !important;
+}
+
+.contacts-info a:hover,
+.contacts-info a:focus {
+    color: #23527c !important;
+}
